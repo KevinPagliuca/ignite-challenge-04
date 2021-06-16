@@ -1,1 +1,43 @@
-// TODO
+.post {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  gap: .5rem;
+  &+& {
+    margin-top: 3rem;
+  }
+  h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--heading);
+  }
+  p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--body);
+  }
+  .footerPost {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: .5rem;
+    div {
+      display: flex;
+      align-items: center;
+      gap: .5rem;
+      color: var(--info);
+      span {
+        font-size: .875rem;
+      }
+    }
+  }
+}
+.loadingMoreBtn {
+  color: var(--hightlight);
+  background: transparent;
+  border: 0;
+  margin-top: 4rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  transition: filter 0.3s;
+}

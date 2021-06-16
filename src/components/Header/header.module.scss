@@ -1,1 +1,14 @@
-// TODO
+.container {
+  max-width: 720px;
+  width: 100%;
+  margin: 0 auto;
+  height: 6.5rem;
+
+  nav {
+    max-width: 720px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
